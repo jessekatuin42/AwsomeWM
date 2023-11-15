@@ -1,0 +1,118 @@
+2023-11-12 14:08:43.579 [info] Log level: Info
+2023-11-12 14:08:43.579 [info] Validating found git in: "git"
+2023-11-12 14:08:43.579 [info] Using git "2.42.1" from "git"
+2023-11-12 14:08:58.395 [info] Log level: Info
+2023-11-12 14:08:58.396 [info] Validating found git in: "git"
+2023-11-12 14:08:58.396 [info] Using git "2.42.1" from "git"
+2023-11-12 14:08:58.396 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-12 14:08:58.396 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.396 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-12 14:08:58.396 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.399 [info] > git rev-parse --show-toplevel [0ms]
+2023-11-12 14:08:58.399 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.401 [info] > git rev-parse --show-toplevel [0ms]
+2023-11-12 14:08:58.405 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-11-12 14:08:58.411 [info] Open repository: /home/jesse/.config/awesome
+2023-11-12 14:08:58.417 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-12 14:08:58.417 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.418 [info] > git config --get commit.template [4ms]
+2023-11-12 14:08:58.424 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-12 14:08:58.424 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.426 [info] > git rev-parse --show-toplevel [0ms]
+2023-11-12 14:08:58.426 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.429 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-12 14:08:58.429 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.431 [info] > git rev-parse --show-toplevel [0ms]
+2023-11-12 14:08:58.431 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-11-12 14:08:58.437 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-12 14:08:58.437 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.440 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-12 14:08:58.440 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.443 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-12 14:08:58.443 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.446 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-12 14:08:58.446 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 14:08:58.469 [info] > git status -z -uall [32ms]
+2023-11-12 14:08:58.476 [info] > git config --get commit.template [0ms]
+2023-11-12 14:08:58.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2023-11-12 14:08:58.532 [info] > git status -z -uall [27ms]
+2023-11-12 14:08:58.932 [info] > git check-ignore -v -z --stdin [2ms]
+2023-11-12 14:09:01.214 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-12 14:09:06.812 [info] > git show --textconv :config.lua [3ms]
+2023-11-12 14:09:06.813 [info] > git ls-files --stage -- /home/jesse/.config/awesome/config.lua [0ms]
+2023-11-12 14:09:06.815 [info] > git cat-file -s 835b8269544aa7d0271167d8273541041f220942 [0ms]
+2023-11-12 14:11:37.683 [info] > git config --get commit.template [1ms]
+2023-11-12 14:11:37.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-12 14:11:37.714 [info] > git status -z -uall [26ms]
+2023-11-12 14:11:38.128 [info] > git show --textconv :develop.lua [3ms]
+2023-11-12 14:11:38.130 [info] > git ls-files --stage -- /home/jesse/.config/awesome/develop.lua [4ms]
+2023-11-12 14:11:38.139 [info] > git cat-file -s 39046adc61c66258df828aac7112f31ee175b286 [2ms]
+2023-11-12 14:11:40.999 [info] > git ls-files --stage -- /home/jesse/.config/awesome/globals.lua [3ms]
+2023-11-12 14:11:41.007 [info] > git show --textconv :globals.lua [15ms]
+2023-11-12 14:11:41.008 [info] > git cat-file -s 56ddd357e0a3b17bf4846591641ab0a0ebe002df [2ms]
+2023-11-12 14:11:43.458 [info] > git check-ignore -v -z --stdin [2ms]
+2023-11-12 14:11:45.080 [info] > git show --textconv :theme/init.lua [12ms]
+2023-11-12 14:11:45.080 [info] > git ls-files --stage -- /home/jesse/.config/awesome/theme/init.lua [2ms]
+2023-11-12 14:11:45.083 [info] > git cat-file -s aca817a0e00daa30a45f18a36a5d49f5a8bf6126 [1ms]
+2023-11-12 14:11:56.085 [info] > git show --textconv :theme/style.lua [12ms]
+2023-11-12 14:11:56.085 [info] > git ls-files --stage -- /home/jesse/.config/awesome/theme/style.lua [1ms]
+2023-11-12 14:11:56.090 [info] > git cat-file -s 77f5861bfa28b01efb8c0ce89415cbae34acc4ce [1ms]
+2023-11-12 14:11:56.676 [info] > git show --textconv :theme/theme.lua [3ms]
+2023-11-12 14:11:56.677 [info] > git ls-files --stage -- /home/jesse/.config/awesome/theme/theme.lua [1ms]
+2023-11-12 14:11:56.684 [info] > git cat-file -s cdc352da2aa385d0ccc4b8179a330c23995be284 [2ms]
+2023-11-12 14:12:12.282 [info] > git show --textconv :theme/style.lua [3ms]
+2023-11-12 14:12:12.283 [info] > git ls-files --stage -- /home/jesse/.config/awesome/theme/style.lua [1ms]
+2023-11-12 14:12:12.290 [info] > git cat-file -s 77f5861bfa28b01efb8c0ce89415cbae34acc4ce [2ms]
+2023-11-12 14:12:22.775 [info] > git check-ignore -v -z --stdin [0ms]
+2023-11-12 14:12:23.703 [info] > git show --textconv :rice/apps.lua [8ms]
+2023-11-12 14:12:23.703 [info] > git ls-files --stage -- /home/jesse/.config/awesome/rice/apps.lua [1ms]
+2023-11-12 14:12:23.707 [info] > git cat-file -s 6320a3d6af6777f32138404238ce37e6be9758d9 [2ms]
+2023-11-12 14:12:51.147 [info] > git show --textconv :rc.lua [8ms]
+2023-11-12 14:12:51.148 [info] > git ls-files --stage -- /home/jesse/.config/awesome/rc.lua [2ms]
+2023-11-12 14:12:51.151 [info] > git cat-file -s c2d9258bf5cac4454ed8fd8f731db3f13b4cb179 [1ms]
+2023-11-12 14:13:02.270 [info] > git show --textconv :config.lua [13ms]
+2023-11-12 14:13:02.274 [info] > git ls-files --stage -- /home/jesse/.config/awesome/config.lua [4ms]
+2023-11-12 14:13:02.281 [info] > git cat-file -s 835b8269544aa7d0271167d8273541041f220942 [2ms]
+2023-11-12 14:13:03.841 [info] > git show --textconv :rc.lua [6ms]
+2023-11-12 14:13:03.841 [info] > git ls-files --stage -- /home/jesse/.config/awesome/rc.lua [1ms]
+2023-11-12 14:13:03.846 [info] > git cat-file -s c2d9258bf5cac4454ed8fd8f731db3f13b4cb179 [2ms]
+2023-11-12 14:13:16.645 [info] > git show --textconv :globals.lua [4ms]
+2023-11-12 14:13:16.648 [info] > git ls-files --stage -- /home/jesse/.config/awesome/globals.lua [3ms]
+2023-11-12 14:13:16.656 [info] > git cat-file -s 56ddd357e0a3b17bf4846591641ab0a0ebe002df [1ms]
+2023-11-12 14:13:22.575 [info] > git show --textconv :develop.lua [3ms]
+2023-11-12 14:13:22.578 [info] > git ls-files --stage -- /home/jesse/.config/awesome/develop.lua [4ms]
+2023-11-12 14:13:22.586 [info] > git cat-file -s 39046adc61c66258df828aac7112f31ee175b286 [2ms]
+2023-11-12 14:13:28.019 [info] > git show --textconv :config.lua [12ms]
+2023-11-12 14:13:28.022 [info] > git ls-files --stage -- /home/jesse/.config/awesome/config.lua [4ms]
+2023-11-12 14:13:28.032 [info] > git cat-file -s 835b8269544aa7d0271167d8273541041f220942 [2ms]
+2023-11-12 14:13:39.103 [info] > git config --get commit.template [7ms]
+2023-11-12 14:13:39.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-12 14:13:39.136 [info] > git status -z -uall [26ms]
+2023-11-12 14:13:53.548 [info] > git show --textconv :.editorconfig [12ms]
+2023-11-12 14:13:53.551 [info] > git ls-files --stage -- /home/jesse/.config/awesome/.editorconfig [4ms]
+2023-11-12 14:13:53.559 [info] > git cat-file -s 0889bb82c7f265ec669353587f9181472a006bda [2ms]
+2023-11-12 14:14:02.882 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-12 14:14:05.907 [info] > git check-ignore -v -z --stdin [2ms]
+2023-11-12 14:14:06.851 [info] > git show --textconv :layouts/init.lua [13ms]
+2023-11-12 14:14:06.853 [info] > git ls-files --stage -- /home/jesse/.config/awesome/layouts/init.lua [3ms]
+2023-11-12 14:14:06.857 [info] > git cat-file -s ff5ea638a0ded9b3945a1fe9efb814f337792bf8 [2ms]
+2023-11-12 14:24:13.375 [warning] ENOENT: no such file or directory, open '/home/jesse/.config/awesome/.git/HEAD'
+2023-11-12 14:24:13.379 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/jesse/.config/awesome/.git/config'
+2023-11-12 14:24:13.386 [warning] ENOENT: no such file or directory, open '/home/jesse/.config/awesome/.git/HEAD'
+2023-11-12 14:24:13.390 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/jesse/.config/awesome/.git/config'
+2023-11-12 14:24:22.118 [info] > git rev-parse --show-toplevel [0ms]
+2023-11-12 14:24:22.118 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

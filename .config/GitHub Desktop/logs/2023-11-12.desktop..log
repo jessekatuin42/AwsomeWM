@@ -1,0 +1,66 @@
+2023-11-12T20:19:12.670Z - info: [ui] [AppStore] loading 0 repositories from store
+2023-11-12T20:19:12.701Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:19:12.702Z - info: [ui] launching: 3.3.3-linux2 (Linux 6.6.1-zen1-1-zen)
+2023-11-12T20:19:12.702Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-11-12T20:19:12.727Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:19:12.957Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:19:13.007Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:19:13.065Z - info: [ui] Opt in reported.
+2023-11-12T20:19:15.398Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:19:16.939Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:19:18.220Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2023-11-12T20:19:18.221Z - info: [ui] [SignInStore] initializing OAuth flow
+2023-11-12T20:19:18.226Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=3020ffe9-d60a-46ff-a459-58a2d46e5e7e
+2023-11-12T20:19:18.226Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2023-11-12T20:19:19.557Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2023-11-12T20:20:13.822Z - info: [main] Received possible protocol arguments: 3
+2023-11-12T20:20:13.822Z - info: [main] Processing protocol url
+2023-11-12T20:20:13.823Z - info: [ui] [Dispatcher] requesting authenticated user
+2023-11-12T20:20:13.830Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2023-11-12T20:20:13.856Z - info: [main] Received possible protocol arguments: 2
+2023-11-12T20:20:13.859Z - info: [main] Processing protocol url
+2023-11-12T20:20:14.609Z - info: [ui] [SignInStore] account resolved
+2023-11-12T20:20:14.609Z - info: [ui] [AppStore] adding account jessekatuin42 (jessekatuin42) to store
+2023-11-12T20:20:14.614Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2023-11-12T20:20:14.636Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:20:15.039Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:20:15.702Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:20:24.096Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:20:24.439Z - info: [ui] Subscribed 'jessekatuin42' to Alive channel
+2023-11-12T20:20:24.511Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:20:25.689Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-11-12T20:20:39.674Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/jessekatuin42/AWX.git - jessekatuin42 (has token)
+2023-11-12T20:20:40.287Z - info: [ui] [AppStore] adding repository at /home/jesse/Documents/GitHub/AWX to store
+2023-11-12T20:20:40.598Z - info: [ui] [BranchPruner] No branches to prune.
+2023-11-12T20:21:02.240Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: AWX - jessekatuin42 (has token)
+2023-11-12T20:21:03.079Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-11-12T20:21:08.141Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/HowlingArcher/SLH-Website.git - jessekatuin42 (has token)
+2023-11-12T20:21:09.106Z - info: [ui] [AppStore] adding repository at /home/jesse/Documents/GitHub/SLH-Website to store
+2023-11-12T20:21:09.198Z - info: [ui] [BranchPruner] Last prune took place 29 seconds ago - skipping
+2023-11-12T20:21:09.364Z - info: [ui] [BranchPruner] No branches to prune.
+2023-11-12T20:39:12.053Z - warn: [ui] fetchRepository: an error occurred for 'jessekatuin42/AWX'
+TypeError: Failed to fetch
+    at Bt (/home/jesse/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/jesse/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchRepository (/home/jesse/webpack:/app/src/lib/api.ts:938:35)
+    at /home/jesse/webpack:/app/src/lib/infer-last-push-for-repository.ts:38:30
+    at Xa.refreshIndicatorForRepository [as refreshRepositoryIndicators] (/home/jesse/webpack:/app/src/lib/stores/app-store.ts:3459:11)
+    at Xa.refreshAllRepositories (/home/jesse/webpack:/app/src/lib/stores/helpers/repository-indicator-updater.ts:96:7)
+2023-11-12T20:39:12.054Z - warn: [ui] failed fetching open PRs for repository HowlingArcher/SLH-Website
+TypeError: Failed to fetch
+    at Bt (/home/jesse/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/jesse/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchAll (/home/jesse/webpack:/app/src/lib/api.ts:1736:45)
+    at _n.fetchAllOpenPullRequests (/home/jesse/webpack:/app/src/lib/api.ts:1151:25)
+    at yN.constructor.fetchAndStoreOpenPullRequests (/home/jesse/webpack:/app/src/lib/stores/pull-request-store.ts:110:28)
+    at yN.constructor.fetchAndStorePullRequests (/home/jesse/webpack:/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/jesse/webpack:/app/src/lib/stores/pull-request-coordinator.ts:158:45)
+2023-11-12T20:39:12.055Z - error: [ui] Error refreshing pull requests for 'HowlingArcher/SLH-Website'
+TypeError: Failed to fetch
+    at Bt (/home/jesse/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/jesse/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchAll (/home/jesse/webpack:/app/src/lib/api.ts:1736:45)
+    at _n.fetchAllOpenPullRequests (/home/jesse/webpack:/app/src/lib/api.ts:1151:25)
+    at yN.constructor.fetchAndStoreOpenPullRequests (/home/jesse/webpack:/app/src/lib/stores/pull-request-store.ts:110:28)
+    at yN.constructor.fetchAndStorePullRequests (/home/jesse/webpack:/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/jesse/webpack:/app/src/lib/stores/pull-request-coordinator.ts:158:45)

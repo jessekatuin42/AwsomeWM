@@ -1,0 +1,43 @@
+2023-11-15 07:53:15.416 [info] Log level: Info
+2023-11-15 07:53:15.416 [info] Validating found git in: "git"
+2023-11-15 07:53:15.416 [info] Using git "2.42.1" from "git"
+2023-11-15 07:57:42.805 [info] Log level: Info
+2023-11-15 07:57:42.805 [info] Validating found git in: "git"
+2023-11-15 07:57:42.805 [info] Using git "2.42.1" from "git"
+2023-11-15 07:57:42.805 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-15 07:57:42.805 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-15 07:57:42.806 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-15 07:57:42.809 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-11-15 07:57:42.816 [info] Open repository: /home/jesse/Documents/GitHub/AWX
+2023-11-15 07:57:42.824 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-15 07:57:42.824 [info] > git config --get commit.template [4ms]
+2023-11-15 07:57:42.830 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-11-15 07:57:42.832 [info] Open repository: /home/jesse/Documents/GitHub/Linux-Config
+2023-11-15 07:57:42.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-11-15 07:57:42.842 [info] > git status -z -uall [1ms]
+2023-11-15 07:57:42.846 [info] > git rev-parse --show-toplevel [8ms]
+2023-11-15 07:57:42.846 [info] > git config --get commit.template [11ms]
+2023-11-15 07:57:42.855 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-11-15 07:57:42.857 [info] Open repository: /home/jesse/Documents/GitHub/SLH-Website
+2023-11-15 07:57:42.858 [info] > git config --get commit.template [9ms]
+2023-11-15 07:57:42.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-15 07:57:42.875 [info] > git status -z -uall [11ms]
+2023-11-15 07:57:42.877 [info] > git config --get commit.template [16ms]
+2023-11-15 07:57:42.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-11-15 07:57:42.888 [info] > git status -z -uall [3ms]
+2023-11-15 07:57:42.888 [info] > git config --get commit.template [5ms]
+2023-11-15 07:57:42.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/production refs/remotes/production [1ms]
+2023-11-15 07:57:42.898 [info] > git status -z -uall [6ms]
+2023-11-15 07:57:42.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-15 07:57:42.907 [info] > git status -z -uall [6ms]
+2023-11-15 07:57:42.908 [info] > git config --get commit.template [2ms]
+2023-11-15 07:57:42.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/production refs/remotes/production [0ms]
+2023-11-15 07:57:42.920 [info] > git status -z -uall [5ms]
+2023-11-15 07:57:43.400 [info] > git check-ignore -v -z --stdin [13ms]
+2023-11-15 07:57:43.400 [info] > git check-ignore -v -z --stdin [4ms]
+2023-11-15 07:57:43.400 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-15 07:57:45.472 [info] > git check-ignore -v -z --stdin [3ms]
+2023-11-15 07:57:45.892 [info] > git show --textconv :README.md [7ms]
+2023-11-15 07:57:45.892 [info] > git ls-files --stage -- /home/jesse/Documents/GitHub/Linux-Config/README.md [3ms]
+2023-11-15 07:57:45.896 [info] > git cat-file -s 69c0a35dbc89a7f7cdc7aa6f20ee2da55f3cc8b7 [1ms]

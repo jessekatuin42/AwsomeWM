@@ -1,0 +1,22 @@
+2023-11-15 07:53:15.359 [info] Extension host with pid 8382 started
+2023-11-15 07:53:15.372 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-15 07:53:15.377 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-15 07:53:15.389 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-15 07:53:15.412 [info] Eager extensions activated
+2023-11-15 07:53:15.418 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-15 07:53:15.419 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-15 07:57:40.883 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-15 07:57:40.888 [info] Extension host with pid 8382 exiting with code 0
+2023-11-15 07:57:41.354 [info] Extension host with pid 8998 started
+2023-11-15 07:57:41.354 [info] Skipping acquiring lock for /home/jesse/.config/Code/User/workspaceStorage/d7ec08e378f6ed624bfad5f4c2fd2181.
+2023-11-15 07:57:41.363 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-11-15 07:57:41.365 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-15 07:57:41.374 [info] Eager extensions activated
+2023-11-15 07:57:41.421 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-15 07:57:41.423 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-15 07:57:42.768 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-11-15 07:57:42.864 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-11-15 07:57:45.661 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-11-15 07:57:45.664 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-11-15 07:57:45.685 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-15 07:57:45.889 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

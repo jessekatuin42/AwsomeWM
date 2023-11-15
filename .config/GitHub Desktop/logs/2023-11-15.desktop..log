@@ -1,0 +1,34 @@
+2023-11-15T06:30:26.325Z - info: [ui] [AppStore] loading 2 repositories from store
+2023-11-15T06:30:26.328Z - info: [ui] [AppStore] found account: jessekatuin42 (jessekatuin42)
+2023-11-15T06:30:26.444Z - info: [ui] [BranchPruner] No branches to prune.
+2023-11-15T06:30:26.480Z - info: [ui] launching: 3.3.3-linux2 (Linux 6.6.1-zen1-1-zen)
+2023-11-15T06:30:26.481Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-11-15T06:30:26.758Z - info: [ui] Subscribed 'jessekatuin42' to Alive channel
+2023-11-15T06:30:26.936Z - info: [ui] Stats reported.
+2023-11-15T06:30:27.440Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: production | repos/HowlingArcher/SLH-Website/rules/branches/production
+TypeError: Failed to fetch
+    at Bt (/home/jesse/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/jesse/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchRepoRulesForBranch (/home/jesse/webpack:/app/src/lib/api.ts:1667:35)
+    at ar.refreshBranchProtectionState (/home/jesse/webpack:/app/src/lib/stores/app-store.ts:1198:39)
+    at ar.repositoryWithRefreshedGitHubRepository (/home/jesse/webpack:/app/src/lib/stores/app-store.ts:4083:5)
+2023-11-15T06:30:54.202Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.3s of which 0.0s paused, total 0.3s
+2023-11-15T06:31:51.419Z - info: [ui] [AppStore] adding repository at /home/jesse/.config/dotfiles to store
+2023-11-15T06:32:01.335Z - info: [ui] [BranchPruner] No branches to prune.
+2023-11-15T06:48:31.184Z - warn: [ui] fetchAll: 'repos/jessekatuin42/dotfiles/pulls?state=open' returned a 404
+2023-11-15T06:48:31.487Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.6s of which 0.0s paused, total 0.6s
+2023-11-15T06:48:56.395Z - info: [ui] [BranchPruner] No branches to prune.
+2023-11-15T06:49:12.268Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/jessekatuin42/Linux-Config.git - jessekatuin42 (has token)
+2023-11-15T06:49:12.865Z - info: [ui] [AppStore] adding repository at /home/jesse/Documents/GitHub/Linux-Config to store
+2023-11-15T06:49:12.960Z - info: [ui] [BranchPruner] Last prune took place 17 seconds ago - skipping
+2023-11-15T06:49:13.160Z - info: [ui] [BranchPruner] No branches to prune.
+2023-11-15T06:54:28.772Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/jessekatuin42/Linux-Config/rules/branches/main
+TypeError: Failed to fetch
+    at Bt (/home/jesse/webpack:/app/src/lib/http.ts:152:10)
+    at _n.request (/home/jesse/webpack:/app/src/lib/api.ts:1766:28)
+    at _n.fetchRepoRulesForBranch (/home/jesse/webpack:/app/src/lib/api.ts:1667:35)
+    at ar.refreshBranchProtectionState (/home/jesse/webpack:/app/src/lib/stores/app-store.ts:1198:39)
+    at /home/jesse/webpack:/app/src/lib/stores/app-store.ts:5003:32
+    at ar.withPushPullFetch (/home/jesse/webpack:/app/src/lib/stores/app-store.ts:4517:5)
+    at ar.performFetch (/home/jesse/webpack:/app/src/lib/stores/app-store.ts:4959:5)
+    at Ho.performAndScheduleFetch (/home/jesse/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:102:7)
